@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 03
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Mentalista
+        </h1>
+        <p class="page-subtitle">
+            Digite um número de 0 a 10
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
+            alt="">
+
+    	<div id="divAposta">
+	    	<form id="formApostas">
+	    	    <select name="apostas" id="apostas" multiple style="font-size:20px; text-align:right;" size="10">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+		        <input class="button" type="button" id="btnApostar" value="Apostar"/> 
+	   	        <input class="button" type="button" id="limpar" value="Limpar" onclick="limparAposta();"/>		  
+		    </form>
+	    </div>
+
+        <div id="divResposta">			  
+            <span id="resposta"></span>
+        </div>
+	</div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src="js/script.js"></script>
+</body>
+</html>

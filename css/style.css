@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://fdr.com.br/wp-content/uploads/2020/07/quais-as-minhas-chances-de-ganhar-na-mega-sena-1024x682.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
+
+span{  	
+  font-size:35px;
+  width:50px;
+  background-color:white;
+}
+
+.button{
+  border:none;
+  width:100px;
+  height:30px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:4px;
+}
+
+.button:hover{
+  background-color: #58caf0;
+  cursor:pointer;
+}
